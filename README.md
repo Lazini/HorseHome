@@ -1,4 +1,18 @@
 # HorseHome
 Source code for the Bukkit plugin called HorseHome
 
-You're allowed to use this code only for personal uses and education purposes. If you do use this code somehow, either solely or partially, you are obliged to give credits to the official owners: MechaTech84 and Lazini
+You're allowed to use this code only for personal uses and education purposes. If you do use this code somehow, either as a whole or partially, you are obliged to give credits to the official owners: MechaTech84 and Lazini
+
+Copyright 2015 MechaTech84 & Lazini
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
