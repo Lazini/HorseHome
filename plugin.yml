@@ -1,0 +1,36 @@
+name: HorseHome
+main: com.mechatech84.horsehome.NewHorseHome
+version: 1.2
+authors: [MechaTech84, Lazini]
+
+commands:
+    sethorsehome:
+        description: Sets the home to which a player's horse is later teleported.
+        permission: horsehome.sethorsehome
+        permission-message: You don't have <permission>
+        usage: /sethorsehome [name]
+    horsehome:
+        description: Teleports the horse to the previously set home.
+        permission: horsehome.horsehome
+        permission-message: You don't have <permission>
+        usage: /horsehome [name]
+    delhorsehome:
+        description: Deletes previously set homes.
+        permission: horsehome.delhorsehome
+        permission-message: You don't have <permission>
+        usage: /delhorsehome [name]
+    horsehomes:
+        description: Shows current horse homes you've set as well as how many of them are left.
+        permission: horsehome.horsehome
+        permission-message: You don't have <permission>
+        usage: /horsehomes
+
+permissions:
+    horsehome.horsehome:
+        default: true
+    horsehome.sethorsehome:
+        default: true
+    horsehome.delhorsehome:
+        default: true
+    horsehome.horsestats:
+        default: false
