@@ -185,7 +185,7 @@ public class HorseHomeCommand implements CommandExecutor {
 							horse.teleport(horseHomeLocation);
 						}
 						player.sendMessage(GREEN + "Horse sent to " + RED
-								+ home + GREEN + ".");
+								+ home + GREEN + "."); 
 
 						return true;
 					}
